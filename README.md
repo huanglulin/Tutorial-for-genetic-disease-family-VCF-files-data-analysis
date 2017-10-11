@@ -23,6 +23,8 @@ Only one candidate gene in the result list.
 ## Case 2. TAF family, which is an X-linked family. LID57247 LID57244 LID57243 LID57250 are affected brother, affected brother, unaffected father, unaffected mother, respectively.
 
 Here is the pedigree diagram of this family:
+
+![picture1family2](https://user-images.githubusercontent.com/26230519/31466644-f2c1c4a8-aea5-11e7-9437-031f41524c3e.png)
  
 
      VCF file: /share/datasets/GeneticDiseaseFamilyVcfs/case2/case2.vcf
@@ -33,6 +35,7 @@ Here is the pedigree diagram of this family:
 ## Case 3. De novo mutation example with muscle weakness and difficult swallowing. ll, llF, llM are affected son, father and mother respectively.
 Here is the pedigree diagram of this family:
  
+ ![picture1family3](https://user-images.githubusercontent.com/26230519/31466648-f3cc3c70-aea5-11e7-8fb1-cdf844d4588b.png)
 
      VCF file: /share/datasets/GeneticDiseaseFamilyVcfs/case3/case3.vcf
      PED file: /share/datasets/GeneticDiseaseFamilyVcfs/case3/example.ped
@@ -42,7 +45,7 @@ Here is the pedigree diagram of this family:
 ## Case 4. Dominant mutation for Gina family. 400 401 399 402 403 are unaffected father, affected mother, affected daughter, affected son, affected daughter, respectively.
 Here is the pedigree diagram of this family:
  
-
+![picture1family4](https://user-images.githubusercontent.com/26230519/31466649-f508f45c-aea5-11e7-84b7-a12afbdc477b.png)
 
 TNXB and NAGA are in candidate gene list.
           VCF file: /share/datasets/GeneticDiseaseFamilyVcfs/case4/case4.vcf
@@ -53,7 +56,7 @@ TNXB and NAGA are in candidate gene list.
 ## Case 5. Compound heterozygous variants in NAGLU in both brother and sister, who are affected with progressive cognitive decline.
 Here is the pedigree diagram of this family:
  
-
+![picture1family5](https://user-images.githubusercontent.com/26230519/31466902-caf98824-aea6-11e7-8699-534967afc237.png)
 
     VCF file: /share/datasets/GeneticDiseaseFamilyVcfs/case5/ruinew2.extract_consensus.vcf and yongkangnew2.extract_consensus.vcf
     Reference: https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-014-0066-9
@@ -122,12 +125,16 @@ grep –E “1/1:” same.txt>samehom.txt
 ### Step 6: Using phenolyzer to find out the disease genes
 Go to the webside: http://phenolyzer.wglab.org/, fill in the disease/phenotype and gene list like this:	
  
+ ![picture1ahk1](https://user-images.githubusercontent.com/26230519/31466626-e284ef52-aea5-11e7-8f09-84cd50df91ee.png)
+ 
+ 
 Then we can get the results. The NAGLU gene is the best candidate gene.
 http://phenolyzer.wglab.org/done/44416/OHx3OoeCwlK_T1em/index.html
  
 http://phenolyzer.wglab.org/done/44416/OHx3OoeCwlK_T1em/index.html
  
-
+![picture1ahk2](https://user-images.githubusercontent.com/26230519/31466630-e679dc8a-aea5-11e7-875a-be0fcba0c59e.png)
+![picture1ahk3](https://user-images.githubusercontent.com/26230519/31466633-e7b57b54-aea5-11e7-8769-5dd8ca1d54ca.png)
 
 ## Case 6. KBG syndrome due to de novo mutation in ANKRD11. You can perform single-case analysis using proband only, or perform family-based analysis
 Here is the pedigree diagram of this family:
@@ -151,6 +158,7 @@ Go to the webside: http://phenolyzer.wglab.org/, using KBG syndrome disease/phen
  Here are the results. The AMKRD11 is the best candidate gene.
 http://phenolyzer.wglab.org/done/44497/kvNlqRSQF7OtHJD3/index.html
 http://phenolyzer.wglab.org/done/44497/kvNlqRSQF7OtHJD3/index.html
- 
+ ![picture1ahk4](https://user-images.githubusercontent.com/26230519/31466636-e8d33be8-aea5-11e7-94c0-ebce316a2624.png)
+![picture1ahk5](https://user-images.githubusercontent.com/26230519/31466638-eb746b24-aea5-11e7-9115-96d18602ab06.png)
 
  
