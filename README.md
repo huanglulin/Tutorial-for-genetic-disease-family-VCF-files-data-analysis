@@ -6,7 +6,7 @@ This is a basic tutorial for genetic disease family VCF files data analysis. The
 ## Case 1. IHA (idiopathic hemolytic anemia) sample, which is a recessive disease. 84060 is case (son), 84615   88962   92157 are unaffected brother, mother and father, respectively.
 Here is the pedigree diagram of this family:
 
-https://user-images.githubusercontent.com/26230519/31466361-e950e378-aea4-11e7-89aa-0d2a1ae041d3.png
+![picture1family1](https://user-images.githubusercontent.com/26230519/31466361-e950e378-aea4-11e7-89aa-0d2a1ae041d3.png)
  
      VCF file: /share/datasets/GeneticDiseaseFamilyVcfs/case1/case1.vcf
      PED file: /share/datasets/GeneticDiseaseFamilyVcfs/case1/example.ped
